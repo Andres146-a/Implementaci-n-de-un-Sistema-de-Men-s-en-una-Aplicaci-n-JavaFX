@@ -1,0 +1,50 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/* application.css */
+
+/* Estilo para la barra de menú */
+.menu-bar {
+    -fx-background-color: #d3d3d3; /* Gris claro */
+}
+
+/* Estilo para los menús */
+.menu {
+    -fx-text-fill: black; /* Texto negro */
+}
+
+/* Estilo para los elementos del menú */
+.menu-item {
+    -fx-text-fill: black; /* Texto negro */
+}
+
+.menu-item:hover {
+    -fx-background-color: #b0b0b0; /* Gris un poco más oscuro al pasar el mouse */
+    -fx-text-fill: black;
+}
+
+/* Estilo para los botones */
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-padding: 10 20 10 20;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+/* Estilo para las alertas */
+.dialog-pane {
+    -fx-background-color: #ecf0f1;
+}
+
+.dialog-pane .content.label {
+    -fx-text-fill: #2c3e50;
+}
+
+.dialog-pane .button-bar .button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
